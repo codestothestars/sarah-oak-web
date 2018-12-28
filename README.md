@@ -2,3 +2,4 @@
 The public website front-end of Sarah Oak.
 
 ## Development
+### Dependencies
