@@ -1,0 +1,19 @@
+{
+  "author": "Ariel Oak",
+  "bugs": {
+    "url": "https://github.com/codestothestars/sarah-oak-web/issues"
+  },
+  "description": "The public website front-end of Sarah Oak.",
+  "homepage": "https://github.com/codestothestars/sarah-oak-web",
+  "license": "GPL-3.0",
+  "main": "index.js",
+  "name": "sarah-oak-web",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codestothestars/sarah-oak-web.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}
