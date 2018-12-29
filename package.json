@@ -5,6 +5,7 @@
   },
   "description": "The public website front-end of Sarah Oak.",
   "devDependencies": {
+    "@angular/cli": "7.1.4"
   },
   "homepage": "https://github.com/codestothestars/sarah-oak-web",
   "license": "GPL-3.0",
