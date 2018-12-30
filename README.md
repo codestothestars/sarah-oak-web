@@ -31,3 +31,5 @@ Before committing changes, make sure that you...
 1. Run all end-to-end tests with `npm run e2e` and correct all failures.
 
 ## Deployment
+### Deploying to Production
+In order to deploy to production, merge the new production version into `master`.
