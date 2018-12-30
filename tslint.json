@@ -1,0 +1,60 @@
+{
+  "extends": "tslint:all",
+  "rules": {
+    "file-name-casing": [
+      true,
+      "kebab-case"
+    ],
+    "interface-name": [
+      true,
+      "never-prefix"
+    ],
+    "no-implicit-dependencies": [
+      true,
+      "dev"
+    ],
+    "no-inferrable-types": false,
+    "no-submodule-imports": [
+      true,
+      "@angular/core/testing",
+      "@angular/platform-browser-dynamic/testing",
+      "@angular/router/testing",
+      "core-js/es6/array",
+      "core-js/es6/date",
+      "core-js/es6/function",
+      "core-js/es6/map",
+      "core-js/es6/math",
+      "core-js/es6/number",
+      "core-js/es6/object",
+      "core-js/es6/parse-float",
+      "core-js/es6/parse-int",
+      "core-js/es6/regexp",
+      "core-js/es6/set",
+      "core-js/es6/string",
+      "core-js/es6/symbol",
+      "core-js/es6/weak-map",
+      "zone.js/dist/zone",
+      "zone.js/dist/zone-error",
+      "zone.js/dist/zone-testing"
+    ],
+    "no-unused-variable": false,
+    "no-void-expression": [
+      true,
+      "ignore-arrow-function-shorthand"
+    ],
+    "quotemark": [
+      true,
+      "single"
+    ],
+    "trailing-comma": [
+      true,
+      {
+        "singleline": "never",
+        "multiline": "never"
+      }
+    ]
+  },
+  "rulesDirectory": [
+    "codelyzer"
+  ]
+}

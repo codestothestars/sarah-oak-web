@@ -1,0 +1,60 @@
+{
+  "author": "Ariel Oak",
+  "bugs": {
+    "url": "https://github.com/codestothestars/sarah-oak-web/issues"
+  },
+  "dependencies": {
+    "@angular/animations": "7.1.4",
+    "@angular/cli": "7.1.4",
+    "@angular/common": "7.1.4",
+    "@angular/compiler": "7.1.4",
+    "@angular/core": "7.1.4",
+    "@angular/forms": "7.1.4",
+    "@angular/platform-browser": "7.1.4",
+    "@angular/platform-browser-dynamic": "7.1.4",
+    "@angular/router": "7.1.4",
+    "core-js": "2.6.1",
+    "rxjs": "6.3.3",
+    "tslib": "1.9.3",
+    "zone.js": "0.8.26"
+  },
+  "description": "The public website front-end of Sarah Oak.",
+  "devDependencies": {
+    "@angular-devkit/build-angular": "0.11.4",
+    "@angular/compiler-cli": "7.1.4",
+    "@angular/language-service": "7.1.4",
+    "@angularclass/hmr": "2.1.3",
+    "@types/jasmine": "2.8.14",
+    "@types/jasminewd2": "2.0.6",
+    "@types/node": "8.9.5",
+    "codelyzer": "4.5.0",
+    "jasmine-core": "2.99.1",
+    "jasmine-spec-reporter": "4.2.1",
+    "karma": "3.1.4",
+    "karma-coverage-istanbul-reporter": "2.0.4",
+    "karma-firefox-launcher": "1.1.0",
+    "karma-jasmine": "1.1.2",
+    "karma-jasmine-html-reporter": "0.2.2",
+    "protractor": "5.4.2",
+    "ts-node": "7.0.1",
+    "tslint": "5.11.0",
+    "typescript": "3.1.6"
+  },
+  "homepage": "https://github.com/codestothestars/sarah-oak-web",
+  "license": "GPL-3.0",
+  "main": "index.js",
+  "name": "sarah-oak-web",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codestothestars/sarah-oak-web.git"
+  },
+  "scripts": {
+    "build": "ng build",
+    "e2e": "webdriver-manager update && ng e2e",
+    "lint": "ng lint",
+    "start": "ng serve --hmr",
+    "test": "ng test --watch false",
+    "test-watch": "ng test"
+  },
+  "version": "1.0.0"
+}
