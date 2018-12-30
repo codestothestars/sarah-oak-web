@@ -11,3 +11,12 @@ Once you've installed the above dependencies and cloned this repository, install
 ```shell
 npm install
 ```
+
+### Run
+Run the following to serve the website from the Angular CLI.
+
+```shell
+npm start
+```
+
+The application will automatically recompile and update in your browser on every change.
