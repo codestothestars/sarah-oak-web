@@ -29,3 +29,5 @@ Before committing changes, make sure that you...
 1. Run TSLint with `npm run lint` and correct all errors.
 1. Run all unit tests with `npm test` and correct all failures.
 1. Run all end-to-end tests with `npm run e2e` and correct all failures.
+
+## Deployment
