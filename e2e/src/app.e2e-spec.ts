@@ -14,6 +14,7 @@ describe('Sarah Oak website', () => {
     await expect(
       element(by.css('oak-app *'))
         .getWebElement()
+        .then()
     )
       .toBeTruthy();
   });
