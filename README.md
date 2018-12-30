@@ -30,6 +30,14 @@ Before committing changes, make sure that you...
 1. Run all unit tests with `npm test` and correct all failures.
 1. Run all end-to-end tests with `npm run e2e` and correct all failures.
 
+### Branching Model
+This project uses the following branching rules.
+* `master` contains the current production state. Merge changes into `master` to [trigger a production deployment](#deploying-to-production). Development does not occur here.
+* `develop` contains the current development state planned for the next release. Feature branches are created from here and merged back in when the feature is complete.
+* Use a named feature branch for each feature in development. This is where all main development should occur.
+* `release-*` branches are created from `develop` to prepare the next release. Perform final testing and version checking here, then merge into `master` to trigger a production deployment and back into `develop` to update development.
+* `hotfix-*` branches are created from `master` to fix immediate production issues. Merge back into `master` to deploy to production and into `develop` to update the development version.
+
 ## Deployment
 ### Deploying to Production
 In order to deploy to production, merge the new production version into `master`.
