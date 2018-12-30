@@ -1,6 +1,7 @@
 import { Environment } from './environment.interface';
 
 export const environment: Environment = {
+  hmr: true,
   production: false
 };
 
