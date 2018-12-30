@@ -1,0 +1,14 @@
+pool:
+  vmImage: Ubuntu-16.04
+
+steps:
+  - script: sudo apt-get install -y firefox
+  - script: npm run lint
+  - script: npm test
+  - script: npm run e2e
+  - script: npm run build
+
+  - task: PublishPipelineArtifact@0
+    inputs:
+      artifactName: sarah-oak-web
+      targetPath: dist/sarah-oak-web
