@@ -49,7 +49,7 @@
     "url": "git+https://github.com/codestothestars/sarah-oak-web.git"
   },
   "scripts": {
-    "build": "ng build",
+    "build": "ng build --aot --build-optimizer --optimization --prod --source-map",
     "e2e": "webdriver-manager update && ng e2e",
     "lint": "ng lint",
     "start": "ng serve --hmr",
