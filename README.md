@@ -1,6 +1,9 @@
 # Sarah Oak Website Front-End
 The public website front-end of Sarah Oak.
 
+## Production
+The production website is available as a complete collection of static assets at <https://sarahoakweb.z13.web.core.windows.net>.
+
 ## Development
 ### Dependencies
 * [Node.js](https://nodejs.org) 11.6.0 ([nvm](https://github.com/creationix/nvm) is recommended)
