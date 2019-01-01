@@ -11,5 +11,10 @@ steps:
 
   - task: PublishPipelineArtifact@0
     inputs:
+      artifactName: create-azure-storage
+      targetPath: create-azure-storage.sh
+
+  - task: PublishPipelineArtifact@0
+    inputs:
       artifactName: sarah-oak-web
       targetPath: dist/sarah-oak-web
