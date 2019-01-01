@@ -1,6 +1,9 @@
 # Sarah Oak Website Front-End
 The public website front-end of Sarah Oak.
 
+## Production
+The production website is available as a complete collection of static assets at <https://sarahoakweb.z13.web.core.windows.net>.
+
 ## Development
 ### Dependencies
 * [Node.js](https://nodejs.org) 11.6.0 ([nvm](https://github.com/creationix/nvm) is recommended)
@@ -32,7 +35,7 @@ Before committing changes, make sure that you...
 
 ### Branching Model
 This project uses the following branching rules.
-* `master` contains the current production state. Merge changes into `master` to [trigger a production deployment](#deploying-to-production). Development does not occur here.
+* `master` contains the current production state. Merge changes into `master` to [trigger a production deployment](#official). Development does not occur here.
 * `develop` contains the current development state planned for the next release. Feature branches are created from here and merged back in when the feature is complete.
 * Use a named feature branch for each feature in development. This is where all main development should occur.
 * `release-*` branches are created from `develop` to prepare the next release. Perform final testing and version checking here, then merge into `master` to trigger a production deployment and back into `develop` to update development.
@@ -42,5 +45,14 @@ This project uses the following branching rules.
 The application can be developed in any IDE in conjunction with the dependencies and commands listed above. [Visual Studio Code](https://code.visualstudio.com) is a light, fully-featured IDE that integrates well with Node.js, but is not required.
 
 ## Deployment
-### Deploying to Production
-In order to deploy to production, merge the new production version into `master`.
+### Generic
+In order to deploy the application, first build the production website.
+
+```shell
+npm run build
+```
+
+Place the resulting static website in your desired location and serve it with your web server of choice. The provided [create-azure-storage.sh](./create-azure-storage.sh) will create an Azure Storage account configured to host the website.
+
+### Official
+In order to deploy [codestothestars/sarah-oak-web](.) to production, merge the new production version into `master`. If the automated build at [codestothestars/Sarah Oak Website](https://dev.azure.com/codestothestars/Sarah%20Oak%20Website) is successful, the `Deploy` release pipeline will deploy the new version to production.
