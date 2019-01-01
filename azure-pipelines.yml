@@ -8,11 +8,13 @@ steps:
   - script: npm test
   - script: npm run e2e
   - script: npm run build
+  - script: mkdir create-azure-storage
+  - script: mv create-azure-storage.sh create-azure-storage
 
   - task: PublishPipelineArtifact@0
     inputs:
       artifactName: create-azure-storage
-      targetPath: create-azure-storage.sh
+      targetPath: create-azure-storage
 
   - task: PublishPipelineArtifact@0
     inputs:
