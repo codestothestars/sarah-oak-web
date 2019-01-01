@@ -43,4 +43,4 @@ The application can be developed in any IDE in conjunction with the dependencies
 
 ## Deployment
 ### Deploying to Production
-In order to deploy to production, merge the new production version into `master`.
+In order to deploy [codestothestars/sarah-oak-web](.) to production, merge the new production version into `master`.
