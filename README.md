@@ -2,7 +2,7 @@
 The public website front-end of Sarah Oak.
 
 ## Production
-The production website is available as a complete collection of static assets at <https://sarahoakweb.z13.web.core.windows.net>.
+The production website is available as a complete collection of static assets at <https://sarahoakweb.z13.web.core.windows.net>. All scripts and `favicon.ico` are available in the site root. Assets such as images are available in `/assets`.
 
 ## Development
 ### Dependencies
